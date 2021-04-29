@@ -158,9 +158,9 @@ margin-right: 40px;
 
 .txtcont11{
   margin-top: 90px;
-  font-family: Poppins;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-style: normal;
-font-weight: 300;
+font-weight: 3000;
 font-size: 36px;
 line-height: 64px;
 
@@ -219,7 +219,7 @@ box-shadow: -1px 5px 16px 1px rgba(34, 60, 80, 0.15);
 
 
 .txtcont12{
-  font-family: Poppins;
+  font-family:'Martel Sans', sans-serif;;
 font-style: normal;
 font-weight: 300;
 font-size: 36px;
@@ -242,7 +242,7 @@ background-color: #F2F4FA;
 }
 
 .txtcont13{
-  font-family: Martel Sans;
+  font-family: 'Martel Sans', sans-serif;
 font-style: normal;
 font-weight: 300;
 font-size: 16px;
@@ -260,9 +260,9 @@ left: 172px;
   display: flex;
   position: relative;
   left: 840px;
-  bottom: 244px;
+  bottom: 225px;
   background-color: white;
-  width: 336px;
+  width: 375px;
   height: 72px;
   box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
   border-radius: 6px;
@@ -308,7 +308,7 @@ font-size: 17px;
 }
 
 .txtcont15{
-  font-family: Poppins;
+  font-family: 'Martel Sans', sans-serif;
 font-style: normal;
 font-weight: 300;
 font-size: 36px;
@@ -330,8 +330,9 @@ bottom: 120px;
 }
 
 .iconname  {
+  font-family: 'Martel Sans', sans-serif;
   position: relative;
-  bottom: 60px;
+  bottom: 100px;
   display: flex;
   justify-content: space-between;
   text-decoration: none;
@@ -339,30 +340,62 @@ bottom: 120px;
   color: black;
 
 }
-.icons {
+.contener{
+  width: 1270px;
+  margin: 0 auto;
   position: relative;
-  bottom: 82px;
+}
+.icons {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
-.icons :hover{
-
-  box-shadow: 0px 2px 16px rgba(60, 62, 74, 0.08);
-  border-radius: 6px;
-}
-.adas{
-  background-color: #fff;
+.bub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
   width: 136px;
   height: 136px;
-
-box-shadow: 0px 2px 16px rgba(60, 62, 74, 0.08);
-border-radius: 6px;
-  
+  transition: 0.3s;
 }
+.bub:hover {
+background-color:#3F4255;
+color: rgb(255, 255, 255);
+box-shadow: 0px 2px 16px rgba(120, 120, 121, 0.08);
+border-radius: 6px;
+}
+.karta{
+  margin-bottom: 60px;
+}
+
+
+
+
+
+.fone{
+  width: 136px;
+  height: 136px;
+  background: #FFFFFF;
+ filter: opacity(1.0);
+
+
+}
+.fone:hover{
+  width: 136px;
+  height: 136px;
+  background: #474747;
+  box-shadow: 0px 2px 16px rgba(60, 62, 74, 0.08);
+border-radius: 6px;
+
+}
+
+
 
 .txtcont17{
   margin-bottom: 21px;
-  font-family: Poppins;
+  font-family: 'Martel Sans', sans-serif;
 font-style: normal;
 font-weight: 300;
 font-size: 36px;
@@ -393,6 +426,15 @@ color: #313030;
   top: 39px;
   left: 96px;
   color: white;
+ 
+
+}
+.rmk{
+  background-color: #FFFFFF;
+  height: 2px;
+  width: 170px;
+  margin-left: 60px;
+  margin-top: 50px;
 }
 
 .market{
@@ -402,7 +444,7 @@ color: #313030;
   left: 88px;
 }
 .txtcont19{
-  font-family: Poppins;
+  font-family: 'Martel Sans', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
@@ -444,9 +486,12 @@ color: #D4D7E6;
   align-items: flex-start;
   padding: 0px;
 }
+p{
+  margin-top: 20px;
+}
 
 .txtcont21{
-  font-family: Poppins;
+  font-family: 'Martel Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -489,9 +534,13 @@ color: #D4D7E6;
   align-items: flex-start;
   padding: 0px;
 }
+.t21{
+  position: relative;
+  bottom: 80px;
+}
 
 .txtcont23{
-  font-family: Poppins;
+  font-family: 'Martel Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -535,6 +584,12 @@ color: #D4D7E6;
   align-items: flex-start;
   padding: 0px;
 }
+
+.t23{
+  position: relative;
+  bottom: 160px;
+
+}
 input{
   width: 700px;
   height: 70px;
@@ -553,8 +608,63 @@ line-height: 16px;
 display: flex;
 align-items: center;
 color: #FFFFFF;
-margin-left: 888px;
+margin-left: 800px;
+position: relative;
+bottom: 300px;
 }
 p{
   margin-left: 42px;
+}
+
+.social_media{
+  display: flex;
+  position: relative;
+  bottom: 320px;
+
+ 
+ 
+}
+.social_media >img{
+  margin-left: 40px;
+
+}
+
+/* The sidebar menu */
+.sidenav {
+  
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #3F4255; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
